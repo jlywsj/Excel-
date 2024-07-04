@@ -56,6 +56,7 @@ def merge_excels(file_paths, output_file):
     print(f"合并完成，结果保存在 '{output_file}' 文件中。")
 
 
+# 获取文件列表
 def get_files(path: str) -> list:
     files_path = []
     # os.walk(dir_path)：会递归地遍历指定文件夹下所有的层级目录
